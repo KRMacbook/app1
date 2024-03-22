@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain import langchain_core.prompts.PromptTemplate
+from langchain_core.prompts import PromptTemplate
 #from langchain.llms import OpenAI #so vananenud rida ning asendatud allolevaga
 from langchain_community.llms import OpenAI
 import os
